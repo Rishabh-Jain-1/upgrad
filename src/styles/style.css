@@ -1,0 +1,58 @@
+.form-rounded {
+  border-radius: 1rem;
+}
+.icon ~ input {
+  padding-left: 30px;
+}
+.custom-input {
+  border-radius: 30px;
+  background-color: #f1f4f8;
+  box-shadow: 1px solid #adb6c9;
+  padding-right: 30px;
+}
+.icon {
+  position: absolute;
+  right: 10px;
+  height: 100%;
+  width: 30px;
+  line-height: 36px;
+  text-align: center;
+  color: #adb6c9;
+}
+.icon.right ~ input {
+  padding-left: 10px;
+  padding-right: 90px;
+}
+.icon.right {
+  right: 10px;
+  width: auto;
+}
+
+.apply-button {
+  background: red;
+  padding: 5px 15px;
+  width: 150px;
+  border-radius: 30px;
+  font-weight: 700;
+  border: none;
+  color: white;
+}
+
+.results p,
+.results h6 {
+  display: inline;
+}
+
+.table-body tr td {
+  /* display: inline-block; */
+  max-width: 250px;
+  white-space: nowrap;
+  overflow: hidden !important;
+  text-overflow: ellipsis;
+}
+
+.table-body tr td:hover {
+  text-overflow: clip;
+  white-space: normal;
+  word-break: break-all;
+}

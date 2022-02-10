@@ -1,0 +1,10 @@
+export const SET_ALERT = "SET_ALERT";
+export const CLEAR_ALERT = "CLEAR_ALERT";
+export const SET_SEARCH = "SET_SEARCH";
+export const CLEAR_SEARCH = "CLEAR_SEARCH";
+export const SET_LIST = "SET_LIST";
+export const CLEAR_LIST = "CLEAR_LIST";
+export const UPDATE_DATA = "UPDATE_DATA";
+export const SORT_ASC = "SORT_ASC";
+export const SORT_DSC = "SORT_DSC";
+export const DELETE = "DELETE";
